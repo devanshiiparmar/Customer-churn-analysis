@@ -43,10 +43,10 @@ Dataset link: [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/t
 ## Project Structure
 
 Here’s how the project is organized:
-notebooks/ – This folder has all the Jupyter notebooks for data analysis and machine learning. You can open these to see the EDA, feature analysis, and model training.
+notebooks/ – Jupyter notebooks for data analysis and machine learning. Explore these to see the EDA, feature analysis, and model training.
 Power BI/ – Contains the dashboard files (.pbix) that visualize customer churn and insights. Open them in Power BI Desktop.
 data/ – All the dataset files (.csv) are stored here.
-images/ – Contains charts and plots generated during analysis. Only visualizations, no app screenshots.
+images/ – Contains charts and plots generated during analysis. Only visualizations.
 requirements.txt – Lists the Python libraries needed to run the notebooks.
 README.md – You are reading it! Explains the project and how to use it.
 .gitignore – Files and folders that Git will ignore.
@@ -76,15 +76,17 @@ Key observations:
 ## Machine Learning Model
 
 A classification model was built to predict customer churn.
+We trained a Gradient Boosting classification model to understand customer churn patterns.
 
-Workflow:
+The workflow includes:
 
-1. Data preprocessing
-2. Train-test split
-3. Model training using Gradient Boosting
-4. Model evaluation
+- Data preprocessing
+- Splitting the data into training and test sets
+- Training the Gradient Boosting model
+- Evaluating model performance
 
-The model outputs churn or non-churn predictions based on customer details. The saved model file (`.joblib`) is optional and primarily for reference.
+The model helps identify which customers are more likely to churn based on their features. 
+The saved model file (`.joblib`) is included for reference but is not required to run the notebooks.
 
 
 ## Power BI Dashboard
