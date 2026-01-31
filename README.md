@@ -1,4 +1,4 @@
-# Telecom Customer Churn Analysis and Prediction
+# Customer Churn Analysis and Prediction
 
 This project focuses on analyzing telecom customer data to understand customer behavior and predict customer churn. Customer churn refers to customers leaving or discontinuing a service. By studying churn patterns and building prediction models, businesses can take steps to improve customer retention and reduce revenue loss. The project includes data analysis, visualization, machine learning, and a Power BI dashboard for insights.
 
@@ -42,18 +42,16 @@ Dataset link: [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/t
 
 ## Project Structure
 
-
-Customer-churn-analysis/
-│
-├── notebooks/ -> EDA and ML notebooks
-├── Power BI/ -> Dashboard files (.pbix)
-├── data/ -> Dataset CSVs
-├── images/ -> Only analysis plots
-├── requirements.txt -> Minimal libraries for analysis
-├── README.md -> This file
-├── .gitignore
-├── LICENSE
-├── Instruction.pdf
+Here’s how the project is organized:
+notebooks/ – This folder has all the Jupyter notebooks for data analysis and machine learning. You can open these to see the EDA, feature analysis, and model training.
+Power BI/ – Contains the dashboard files (.pbix) that visualize customer churn and insights. Open them in Power BI Desktop.
+data/ – All the dataset files (.csv) are stored here.
+images/ – Contains charts and plots generated during analysis. Only visualizations, no app screenshots.
+requirements.txt – Lists the Python libraries needed to run the notebooks.
+README.md – You are reading it! Explains the project and how to use it.
+.gitignore – Files and folders that Git will ignore.
+LICENSE – The project license.
+Instruction.pdf – Any instructions or documentation included by the author.
 
 
 ## Exploratory Data Analysis (EDA)
@@ -116,7 +114,7 @@ jupyter notebook
 
 Open and run the notebooks to explore the analysis and model.
 
-##Summary
+## Summary
 
 This project demonstrates the workflow of:
 Data preprocessing
@@ -125,7 +123,7 @@ Machine learning model building
 Business insights through dashboards
 It provides practical understanding of how data can be used to predict customer churn and support better decision-making.
 
-##Author
+## Author
 
 #Devanshi Parmar
 GitHub: https://github.com/devanshiiparmar
